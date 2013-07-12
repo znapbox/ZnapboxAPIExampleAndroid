@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <com.znapbox.api.android.model.Preview
+            android:id="@+id/preview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+		/>
+
+        <ImageView
+            android:id="@+id/frozenPreview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:visibility="invisible" />
+            
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#b1b1b1" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:background="@color/lookamorelightgreen" >
+            
+            <ImageButton
+                android:id="@+id/capture"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_bg_light"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_camera" />
+
+            <ImageButton
+                android:id="@+id/apikey"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/button_bg_light"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_settings" />
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

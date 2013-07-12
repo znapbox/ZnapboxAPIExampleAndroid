@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="app_name">ZnapboxAPIExampleAndroid</string>
+    <string name="s_Yes">Sim</string>
+    <string name="s_No">Não</string>
+    <string name="s_Ok">OK</string>
+    <string name="error_connecting">Erro ao conectar ao servidor, verifique sua conexão com a internet.</string>
+    <string name="error_sending_server">Erro ao enviar o Znap para o servidor.</string>
+    <string name="main_about">Sobre</string>
+    <string name="main_term">Termos de Uso</string>
+    <string name="main_logout">Log out</string>
+    <string name="main_help">Tutorial</string>
+    <string name="main_warning">Aviso</string>
+    <string name="main_no_znaps">Você ainda não tem nenhum Znap.</string>
+    <string name="main_scan_tab">Scanear</string>
+    <string name="main_history_tab">Meus Znaps</string>
+    <string name="main_noInternet">Você não está conectado com a internet. Conecte e tente novamente.</string>
+    <string name="alertMessage_ExitApplication">Tem certeza que deseja sair do aplicativo?</string>
+    <string name="alertMessage_Loading">Carregando...</string>
+    
+    
+    <string name="scan_found"> Encontrado: </string>
+    <string name="scan_uploading"> Enviando... </string>
+    <string name="scan_searching"> Pesquisando... </string>
+    <string name="scan_noCampaignFound"> Tente novamente com outra foto!!</string>
+    <string name="scan_waitingData">Obtendo informações...</string>
+    <string name="scan_notFound"> Não reconhecido. Por favor, tente novamente.</string>
+    <string name="scan_invalidApiKey"> APIKEY Inválida, por favor verifique sua APIKEY.</string>
+    <string name="scan_queue"> Ainda não reconhecemos esta imagem, verifique sua conexão com a internet e tente novamente</string>
+    <string name="scan_queue_response_1"> Encontramos algo que estavamos procurando: </string>
+    <string name="scan_queue_response_2">, adicionamos em sua lista de Znaps </string>
+    <string name="scan_result_title">Não reconhecido</string>
+    <string name="scan_result_try_another">Tentar outra foto</string>
+    <string name="scan_error_cameare_in_use">Não foi possível acessar a camera, talvez ela esteja sendo utilizada por outro aplicativo.</string>
+    
+    <string name="alert_apikey">Por favor, configure sua API KEY antes de testar.</string>
+    <string name="settings_title">Configurações</string>
+	<string name="settings_message">Coloque sua API KEY aqui:</string>
+    <string name="settings_save">Salvar</string>
+    <string name="settings_cancel">Cancelar</string>
+    
+</resources>
