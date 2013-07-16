@@ -2,11 +2,8 @@ package com.znapbox.api.android.util;
 
 public class Constants {
 	
-	//set your APIKEY here
-	public static final String API_KEY = "5d82ap0rflj6rhstaa75g20h9u";
-	
 	//server name
-	public static final String SERVER_NAME = "http://znapsearcher.cloudapp.net";
+	public static final String SERVER_NAME = "http://znapboxapi.cloudapp.net";
 	public static final String QUERY_URL = SERVER_NAME + "/Searcher/api/search/image/";
 
 	//width of image that will be sent to server
