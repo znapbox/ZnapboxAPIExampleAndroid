@@ -4,7 +4,7 @@ public class Constants {
 	
 	//server name
 	public static final String SERVER_NAME = "http://znapboxapi.cloudapp.net";
-	public static final String QUERY_URL = SERVER_NAME + "/Searcher/api/search/image/";
+	public static final String QUERY_URL = SERVER_NAME + "/searcher/api/search/image/";
 
 	//width of image that will be sent to server
 	public static final int IMAGE_WIDTH = 500;
